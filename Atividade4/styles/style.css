@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --prcolor: #c6c6c6;
+    --seccolor: #848484;
+}
+
+header{
+    background-color: var(--prcolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+
+header h1{
+    font-family: "Saira";
+}
+
+header .secnews{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
+
+header li a{
+    text-decoration: none;
+    font-family: "Saira";
+    color: black;
+    padding: 2px;
+}
+
+header li{
+    border-radius: 10px;
+}
+
+header li:hover{
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+header .navheader{
+    padding:5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secbr, .secchamp, .seclib, .seccup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.txtnotbr{
+    background-color: var(--seccolor);
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.txtnotbr:hover{
+    transition: all 0.3s ease-in;
+    transform: scale(1.1);
+}
+
+.txtnotbr img{
+    border-radius: 10px;
+}
+
+.notbr{
+    background-color: var(--seccolor);
+    padding: 4.6%;
+    border-radius:30px;
+    font-family: "Plus Jakarta Sans";
+
+}
+
+.notbr:hover{
+    transition: all 0.3s ease-in;
+    transform: scale(1.03);
+}
+
+.notbr h1{
+    margin-bottom: 20px;
+}
+
+.ball{
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ball img{
+    height: 50px;
+    width: 50px;
+}
+
+.times{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:25px;
+}
+
+.cor, .sp{
+    background-color: #848484;
+    font-family: "Saira";
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    border-radius: 30px;
+    gap:30px;
+}
+
+.cor{
+
+    background-image: url(../imgs/garro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:#c6c6c6;
+    background-color: rgba(0, 0, 0, 0.7); 
+    background-blend-mode: multiply;      
+
+}
+
+.sp{
+    background-image: url(../imgs/luc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:#c6c6c6;
+    background-color: rgba(0, 0, 0, 0.7); 
+    background-blend-mode: multiply;      
+
+}
+
+
+.sp:hover{
+    transition: all 0.3s ease-in;
+    transform: scale(1.1);
+    background-color: rgb(158, 0, 0);
+}
+
+.cor:hover{
+    transition: all 0.3s ease-in;
+    transform: scale(1.1);
+    background-color: rgb(83, 82, 82)
+}
+
+.opts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px
+}
+
+.opt{
+    background-color: var(--seccolor);
+    border-radius: 10px;
+    padding: 2%;
+    padding: 30px;
+    padding-top: 80px;
+    font-family: "Saira";
+}
+
+.opt:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+    background-color: rgb(43, 193, 43);
+}
+
+.optimes {
+    background-image: url(../imgs/gabi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:#c6c6c6;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: multiply;      
+}
+
+.opsele {
+    background-image: url(../imgs/memp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:#c6c6c6;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: multiply;      
+}
+
+footer{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Saira";
+    font-size: medium;
+    background-color: #848484;
+    margin-top: 40px;
+}
