@@ -1,0 +1,94 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20%;
+}
+
+.mainDiv{
+    background-color: black;
+    width: 500px;
+    height:  500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+
+
+@media only screen and 
+(max-width: 420px){
+    .mainDiv{
+        background-color: gray;
+
+    }
+
+    h2::before{
+        content: "Cinza";
+    }
+}
+
+@media only screen and
+(max-width: 768px) and
+(min-width: 421px){
+    .mainDiv{
+        background-color: orange;
+    }
+    h2::before{
+        content: "Laranja";
+    }
+}
+
+@media only screen and (max-width: 1024px) and
+(min-width: 769px){
+    .mainDiv{
+        background-color: pink;
+    }
+    h2::before{
+        content: "Rosa";
+    }
+
+}
+
+@media only screen and (max-width:1080px) and
+(min-width: 1025px){
+    .mainDiv{
+        background-color: red;
+    }
+    h2::before{
+        content:"Vermelho";
+    }
+
+}
+
+@media only screen and (min-width:1081px) and
+(max-width:1366px){
+    .mainDiv{
+        background-color: purple;
+    }
+    h2::before{
+        content:"Roxo";
+    }
+
+}
+
+@media only screen and (max-width:1920px) 
+and (min-width: 1367px){
+    .mainDiv{
+        background-color: yellow;
+    }
+    h2::before{
+        content:"Amarelo";
+    }   
+
+}
+
+@media only screen and (min-width:1921px){
+    .mainDiv{
+        background-color: green;
+    
+    }
+    h2::before{
+        content:"verde";
+    }
+}
