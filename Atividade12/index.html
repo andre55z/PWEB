@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Vamos calcular a area do reatngulo</h1>
+    <input type="text" placeholder="Insira a base" id="txtbase"/>
+    <input type="text" placeholder="Insira a altura" id="txtalt"/>
+    <button id="btncalc" onclick="calculoArea()">Calcular</button>
+    <p id="idp"></p>
+
+    <h1>Vamos ver os dados das classes Corrente e Poupança</h1>
+    <div id="geraldiv">
+        <div id="cnt">
+            <input type="text" placeholder="Insira o nome do correntista" id="txtnc"/>
+            <input type="text" placeholder="Insira o nome do banco" id="txtbc"/>
+            <input type="text" placeholder="Insira o numero da conta" id="txtncnt"/>
+            <input type="text" placeholder="Insira o saldo" id="txtsal"/>
+        </div>
+        <div id="corrente">
+            <input type="text" placeholder="Insira o saldo especial" id="txtsales"/>
+        </div>
+        <div id="poup">
+            <input type="text" placeholder="Insira o juros" id="txtjur"/>
+            <input type="text" placeholder="Insira a data de vencimento" id="txtdtv"/>
+        </div>
+    </div>
+    <button id="btnenv" onclick="enviar()">Enviar</button>
+    <p id="pdois"></p>
+    <p id="ptres"></p>
+</body>
+<script src="code.js"></script>
+</html>

@@ -1,0 +1,11 @@
+#geraldiv{
+    display: flex;
+    flex-direction: row;
+}
+
+#cnt, #corrente, #poup{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 5px;
+}
